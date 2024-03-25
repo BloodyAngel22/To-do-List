@@ -16,7 +16,13 @@ Basic to-do list for a single user
 
 ## How to run
 
-- First you need to create a postgres database: "sudo -u postgres psql" and then run the following commands:
+- First you need to create a postgres database:
+
+```sh
+sudo -u postgres psql
+```
+
+- Then run the following commands:
 
 ```psql
 CREATE DATABASE todolist;
